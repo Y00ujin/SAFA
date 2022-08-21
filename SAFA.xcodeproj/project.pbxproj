@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A2E900128B25C3700ACE7F1 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2E900028B25C3700ACE7F1 /* InputView.swift */; };
+		6A2E900528B266C400ACE7F1 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2E900428B266C400ACE7F1 /* LogInViewController.swift */; };
 		6AA801BB28B2528A00D85A78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA801BA28B2528A00D85A78 /* AppDelegate.swift */; };
 		6AA801BD28B2528A00D85A78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA801BC28B2528A00D85A78 /* SceneDelegate.swift */; };
 		6AA801BF28B2528A00D85A78 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA801BE28B2528A00D85A78 /* SignInViewController.swift */; };
@@ -20,6 +21,7 @@
 		2196C2BCC566FBD34BAAFF94 /* Pods-SAFA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAFA.debug.xcconfig"; path = "Target Support Files/Pods-SAFA/Pods-SAFA.debug.xcconfig"; sourceTree = "<group>"; };
 		5CCD54972298FC849214C1B6 /* Pods_SAFA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAFA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2E900028B25C3700ACE7F1 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		6A2E900428B266C400ACE7F1 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		6AA801B728B2528A00D85A78 /* SAFA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAFA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA801BA28B2528A00D85A78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AA801BC28B2528A00D85A78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				6AA801B928B2528A00D85A78 /* SAFA */,
-				6AA801B828B2528A00D85A78 /* Products */,
 				410B2A36C10BA70DF86919BE /* Pods */,
 				9E7C67FAE138929909C6E702 /* Frameworks */,
 			);
@@ -75,6 +76,7 @@
 				6AA801B728B2528A00D85A78 /* SAFA.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6AA801B928B2528A00D85A78 /* SAFA */ = {
@@ -84,9 +86,11 @@
 				6AA801BA28B2528A00D85A78 /* AppDelegate.swift */,
 				6AA801BC28B2528A00D85A78 /* SceneDelegate.swift */,
 				6AA801BE28B2528A00D85A78 /* SignInViewController.swift */,
+				6A2E900428B266C400ACE7F1 /* LogInViewController.swift */,
 				6AA801C328B2528C00D85A78 /* Assets.xcassets */,
 				6AA801C528B2528C00D85A78 /* LaunchScreen.storyboard */,
 				6AA801C828B2528C00D85A78 /* Info.plist */,
+				6AA801B828B2528A00D85A78 /* Products */,
 			);
 			path = SAFA;
 			sourceTree = "<group>";
@@ -216,6 +220,7 @@
 				6AA801BF28B2528A00D85A78 /* SignInViewController.swift in Sources */,
 				6A2E900128B25C3700ACE7F1 /* InputView.swift in Sources */,
 				6AA801BB28B2528A00D85A78 /* AppDelegate.swift in Sources */,
+				6A2E900528B266C400ACE7F1 /* LogInViewController.swift in Sources */,
 				6AA801BD28B2528A00D85A78 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
