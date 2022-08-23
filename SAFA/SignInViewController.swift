@@ -43,6 +43,7 @@ class SignInViewController: UIViewController {
         $0.titleLabel?.textColor = .white
         $0.backgroundColor = UIColor(red: 145/255, green: 153/255, blue: 133/255, alpha: 1)
         $0.layer.cornerRadius = screenHeight/19.33/2
+        $0.addTarget(self, action: #selector(signInButtonClicked(sender:)), for: .touchUpInside)
     }
 
     // MARK: - LifeCycles
@@ -105,6 +106,11 @@ class SignInViewController: UIViewController {
             $0.height.equalToSuperview().dividedBy(19.33)
             $0.centerX.equalToSuperview()
         }
+    }
+    
+    @objc private func signInButtonClicked(sender: UIButton){
+        let nvc = LoginInViewController()
+        self.navigationController?.pushViewController(nvc, animated: true)
     }
 }
 

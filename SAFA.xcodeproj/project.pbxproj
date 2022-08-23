@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A21A60828B4ABA400E70987 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A60728B4ABA400E70987 /* MyPageViewController.swift */; };
+		6A21A60A28B4AEE600E70987 /* PersonalHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A60928B4AEE600E70987 /* PersonalHealthViewController.swift */; };
+		6A21A60C28B4B34200E70987 /* PersonalHealthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A60B28B4B34200E70987 /* PersonalHealthTableViewCell.swift */; };
 		6A2E900128B25C3700ACE7F1 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2E900028B25C3700ACE7F1 /* InputView.swift */; };
 		6A2E900528B266C400ACE7F1 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2E900428B266C400ACE7F1 /* LogInViewController.swift */; };
 		6A2E900728B267DD00ACE7F1 /* ChooseRoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2E900628B267DD00ACE7F1 /* ChooseRoleViewController.swift */; };
+		6A2E900B28B271EF00ACE7F1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2E900A28B271EF00ACE7F1 /* MainViewController.swift */; };
+		6A2E900D28B2764300ACE7F1 /* TodayTraningTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2E900C28B2764300ACE7F1 /* TodayTraningTableViewCell.swift */; };
+		6A2E900F28B27BA900ACE7F1 /* TraningPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2E900E28B27BA900ACE7F1 /* TraningPlanViewController.swift */; };
 		6AA801BB28B2528A00D85A78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA801BA28B2528A00D85A78 /* AppDelegate.swift */; };
 		6AA801BD28B2528A00D85A78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA801BC28B2528A00D85A78 /* SceneDelegate.swift */; };
 		6AA801BF28B2528A00D85A78 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA801BE28B2528A00D85A78 /* SignInViewController.swift */; };
@@ -21,9 +27,15 @@
 /* Begin PBXFileReference section */
 		2196C2BCC566FBD34BAAFF94 /* Pods-SAFA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAFA.debug.xcconfig"; path = "Target Support Files/Pods-SAFA/Pods-SAFA.debug.xcconfig"; sourceTree = "<group>"; };
 		5CCD54972298FC849214C1B6 /* Pods_SAFA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAFA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A21A60728B4ABA400E70987 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		6A21A60928B4AEE600E70987 /* PersonalHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalHealthViewController.swift; sourceTree = "<group>"; };
+		6A21A60B28B4B34200E70987 /* PersonalHealthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalHealthTableViewCell.swift; sourceTree = "<group>"; };
 		6A2E900028B25C3700ACE7F1 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		6A2E900428B266C400ACE7F1 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		6A2E900628B267DD00ACE7F1 /* ChooseRoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRoleViewController.swift; sourceTree = "<group>"; };
+		6A2E900A28B271EF00ACE7F1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6A2E900C28B2764300ACE7F1 /* TodayTraningTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTraningTableViewCell.swift; sourceTree = "<group>"; };
+		6A2E900E28B27BA900ACE7F1 /* TraningPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraningPlanViewController.swift; sourceTree = "<group>"; };
 		6AA801B728B2528A00D85A78 /* SAFA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAFA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA801BA28B2528A00D85A78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AA801BC28B2528A00D85A78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				6A2E900028B25C3700ACE7F1 /* InputView.swift */,
+				6A2E900C28B2764300ACE7F1 /* TodayTraningTableViewCell.swift */,
+				6A21A60B28B4B34200E70987 /* PersonalHealthTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -90,6 +104,10 @@
 				6AA801BE28B2528A00D85A78 /* SignInViewController.swift */,
 				6A2E900428B266C400ACE7F1 /* LogInViewController.swift */,
 				6A2E900628B267DD00ACE7F1 /* ChooseRoleViewController.swift */,
+				6A2E900A28B271EF00ACE7F1 /* MainViewController.swift */,
+				6A2E900E28B27BA900ACE7F1 /* TraningPlanViewController.swift */,
+				6A21A60728B4ABA400E70987 /* MyPageViewController.swift */,
+				6A21A60928B4AEE600E70987 /* PersonalHealthViewController.swift */,
 				6AA801C328B2528C00D85A78 /* Assets.xcassets */,
 				6AA801C528B2528C00D85A78 /* LaunchScreen.storyboard */,
 				6AA801C828B2528C00D85A78 /* Info.plist */,
@@ -220,8 +238,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2E900F28B27BA900ACE7F1 /* TraningPlanViewController.swift in Sources */,
+				6A21A60A28B4AEE600E70987 /* PersonalHealthViewController.swift in Sources */,
+				6A2E900B28B271EF00ACE7F1 /* MainViewController.swift in Sources */,
+				6A21A60C28B4B34200E70987 /* PersonalHealthTableViewCell.swift in Sources */,
+				6A2E900D28B2764300ACE7F1 /* TodayTraningTableViewCell.swift in Sources */,
 				6AA801BF28B2528A00D85A78 /* SignInViewController.swift in Sources */,
 				6A2E900128B25C3700ACE7F1 /* InputView.swift in Sources */,
+				6A21A60828B4ABA400E70987 /* MyPageViewController.swift in Sources */,
 				6AA801BB28B2528A00D85A78 /* AppDelegate.swift in Sources */,
 				6A2E900728B267DD00ACE7F1 /* ChooseRoleViewController.swift in Sources */,
 				6A2E900528B266C400ACE7F1 /* LogInViewController.swift in Sources */,
