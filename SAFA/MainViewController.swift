@@ -12,7 +12,7 @@ final class MainViewController: UIViewController {
     private let screenWidth = UIScreen.main.bounds.width
     private let screenHeight = UIScreen.main.bounds.height
     
-    private let traningArray = ["", "중대급 식중독 예방 점검, 교육", "일일 전투체육"]
+    private let traningArray = ["부대 예정 활동 보러가기 >", "사망, 사고 통계 보러가기 >", "국방 안전 정보 보러가기 >", "게시판 보러가기 >", "국방 안전 훈령 보러가기 >"]
     
     private lazy var introImageView = UIImageView().then {
         $0.image = UIImage(named: "SAFA_IntroImage")
@@ -20,6 +20,7 @@ final class MainViewController: UIViewController {
     
     private lazy var myPageButton = UIButton().then {
         $0.setImage(UIImage(named: "SAFA_MyPageImage"), for: .normal)
+        $0.addTarget(self, action: #selector(myPageButtonCliekd(sender:)), for: .touchUpInside)
     }
     
     private lazy var riskNumberLabel = UILabel().then {
@@ -107,25 +108,25 @@ final class MainViewController: UIViewController {
             $0.top.equalTo(lineView.snp.bottom)
         }
     }
+    
+    // MARK: - Selectors
+    @objc private func myPageButtonCliekd(sender: UIButton) {
+        let nvc = MyPageViewController()
+        self.navigationController?.pushViewController(nvc, animated: true)
+    }
 }
 
 
 extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return traningArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: TodayTraningTableViewCell.identifier, for: indexPath) as! TodayTraningTableViewCell
         
         cell.selectionStyle = .none
-        
-        if indexPath.row == 0 {
-            cell.traningNameLabel.text = "부대 예정 활동 보러가기 >"
-        } else {
-            cell.traningNameLabel.text = traningArray[indexPath.row]
-        }
-        
+        cell.traningNameLabel.text = traningArray[indexPath.row]
         
         return cell
     }
@@ -137,6 +138,9 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 0 {
             let nvc = TraningPlanViewController()
+            self.navigationController?.pushViewController(nvc, animated: true)
+        } else if indexPath.row == 2 {
+            let nvc = MilitaryDefenseSafetyViewController()
             self.navigationController?.pushViewController(nvc, animated: true)
         }
     }

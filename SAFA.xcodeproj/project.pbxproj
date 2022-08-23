@@ -10,6 +10,13 @@
 		6A21A60828B4ABA400E70987 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A60728B4ABA400E70987 /* MyPageViewController.swift */; };
 		6A21A60A28B4AEE600E70987 /* PersonalHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A60928B4AEE600E70987 /* PersonalHealthViewController.swift */; };
 		6A21A60C28B4B34200E70987 /* PersonalHealthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A60B28B4B34200E70987 /* PersonalHealthTableViewCell.swift */; };
+		6A21A61028B5058100E70987 /* MilitaryDefenseSafetyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A60F28B5058100E70987 /* MilitaryDefenseSafetyViewController.swift */; };
+		6A21A61228B509CF00E70987 /* ExecutivesDefenseSafetyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A61128B509CF00E70987 /* ExecutivesDefenseSafetyViewController.swift */; };
+		6A21A61428B50B5600E70987 /* SafetyAccidentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A61328B50B5600E70987 /* SafetyAccidentViewController.swift */; };
+		6A21A61628B50C1300E70987 /* SafetyEducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A61528B50C1300E70987 /* SafetyEducationViewController.swift */; };
+		6A21A61828B50C7300E70987 /* NightOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A61728B50C7300E70987 /* NightOutViewController.swift */; };
+		6A21A61A28B50CE100E70987 /* VacationSafetyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A61928B50CE100E70987 /* VacationSafetyViewController.swift */; };
+		6A21A61C28B50DEA00E70987 /* DangerousGoodsReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A61B28B50DEA00E70987 /* DangerousGoodsReportViewController.swift */; };
 		6A2E900128B25C3700ACE7F1 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2E900028B25C3700ACE7F1 /* InputView.swift */; };
 		6A2E900528B266C400ACE7F1 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2E900428B266C400ACE7F1 /* LogInViewController.swift */; };
 		6A2E900728B267DD00ACE7F1 /* ChooseRoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2E900628B267DD00ACE7F1 /* ChooseRoleViewController.swift */; };
@@ -30,6 +37,13 @@
 		6A21A60728B4ABA400E70987 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		6A21A60928B4AEE600E70987 /* PersonalHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalHealthViewController.swift; sourceTree = "<group>"; };
 		6A21A60B28B4B34200E70987 /* PersonalHealthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalHealthTableViewCell.swift; sourceTree = "<group>"; };
+		6A21A60F28B5058100E70987 /* MilitaryDefenseSafetyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitaryDefenseSafetyViewController.swift; sourceTree = "<group>"; };
+		6A21A61128B509CF00E70987 /* ExecutivesDefenseSafetyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutivesDefenseSafetyViewController.swift; sourceTree = "<group>"; };
+		6A21A61328B50B5600E70987 /* SafetyAccidentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyAccidentViewController.swift; sourceTree = "<group>"; };
+		6A21A61528B50C1300E70987 /* SafetyEducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyEducationViewController.swift; sourceTree = "<group>"; };
+		6A21A61728B50C7300E70987 /* NightOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightOutViewController.swift; sourceTree = "<group>"; };
+		6A21A61928B50CE100E70987 /* VacationSafetyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationSafetyViewController.swift; sourceTree = "<group>"; };
+		6A21A61B28B50DEA00E70987 /* DangerousGoodsReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerousGoodsReportViewController.swift; sourceTree = "<group>"; };
 		6A2E900028B25C3700ACE7F1 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		6A2E900428B266C400ACE7F1 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		6A2E900628B267DD00ACE7F1 /* ChooseRoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRoleViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +122,13 @@
 				6A2E900E28B27BA900ACE7F1 /* TraningPlanViewController.swift */,
 				6A21A60728B4ABA400E70987 /* MyPageViewController.swift */,
 				6A21A60928B4AEE600E70987 /* PersonalHealthViewController.swift */,
+				6A21A60F28B5058100E70987 /* MilitaryDefenseSafetyViewController.swift */,
+				6A21A61128B509CF00E70987 /* ExecutivesDefenseSafetyViewController.swift */,
+				6A21A61328B50B5600E70987 /* SafetyAccidentViewController.swift */,
+				6A21A61528B50C1300E70987 /* SafetyEducationViewController.swift */,
+				6A21A61728B50C7300E70987 /* NightOutViewController.swift */,
+				6A21A61928B50CE100E70987 /* VacationSafetyViewController.swift */,
+				6A21A61B28B50DEA00E70987 /* DangerousGoodsReportViewController.swift */,
 				6AA801C328B2528C00D85A78 /* Assets.xcassets */,
 				6AA801C528B2528C00D85A78 /* LaunchScreen.storyboard */,
 				6AA801C828B2528C00D85A78 /* Info.plist */,
@@ -238,6 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A21A61828B50C7300E70987 /* NightOutViewController.swift in Sources */,
+				6A21A61A28B50CE100E70987 /* VacationSafetyViewController.swift in Sources */,
+				6A21A61228B509CF00E70987 /* ExecutivesDefenseSafetyViewController.swift in Sources */,
+				6A21A61C28B50DEA00E70987 /* DangerousGoodsReportViewController.swift in Sources */,
+				6A21A61028B5058100E70987 /* MilitaryDefenseSafetyViewController.swift in Sources */,
 				6A2E900F28B27BA900ACE7F1 /* TraningPlanViewController.swift in Sources */,
 				6A21A60A28B4AEE600E70987 /* PersonalHealthViewController.swift in Sources */,
 				6A2E900B28B271EF00ACE7F1 /* MainViewController.swift in Sources */,
@@ -248,6 +274,8 @@
 				6A21A60828B4ABA400E70987 /* MyPageViewController.swift in Sources */,
 				6AA801BB28B2528A00D85A78 /* AppDelegate.swift in Sources */,
 				6A2E900728B267DD00ACE7F1 /* ChooseRoleViewController.swift in Sources */,
+				6A21A61428B50B5600E70987 /* SafetyAccidentViewController.swift in Sources */,
+				6A21A61628B50C1300E70987 /* SafetyEducationViewController.swift in Sources */,
 				6A2E900528B266C400ACE7F1 /* LogInViewController.swift in Sources */,
 				6AA801BD28B2528A00D85A78 /* SceneDelegate.swift in Sources */,
 			);

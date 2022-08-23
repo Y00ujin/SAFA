@@ -90,7 +90,7 @@ extension MyPageViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 0 {
-            let nvc = TraningPlanViewController()
+            let nvc = PersonalHealthViewController()
             self.navigationController?.pushViewController(nvc, animated: true)
         } else {
             
